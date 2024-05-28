@@ -19,9 +19,7 @@
     max-height: 510px;
     height: 80%;
     border-radius: 12px;
-    padding: 20px
-    30px
-    120px;
+    padding: 20px 30px 120px;
     background: #A6B2DD;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow */
     overflow: hidden;
