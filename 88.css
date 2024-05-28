@@ -1,0 +1,249 @@
+/* Variables */
+:root{
+    --body-text-font-family: 'Inter';
+    --body-text-font-weight: 500;
+    --body-text-font-size: 20px;
+    --body-text-line-height: 1.5;
+    --small-text-font-size: 16px;
+}
+.signup .form-layout {
+    position: absolute;
+    top: 291px;
+    right: 50px;
+    width: 554px;
+    height: 706px;
+}
+.signup .image {
+    background: url('assets/images/image.png') 50% / cover no-repeat;
+    margin-right: 115px;
+    width: 798px;
+    height: 1024px;
+}
+.signup .sign-up {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.3px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+.signup .signup-header {
+    margin: 0 8px 44px 0;
+    display: flex;
+    box-sizing: border-box;
+}
+.signup .label-1 {
+    overflow-wrap: break-word;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    font-size: var(--body-text-font-size);
+    line-height: var(--body-text-line-height);
+    color: #828282;
+}
+.signup .first-name {
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    background: #FFFFFF;
+    margin-right: 13px;
+    padding: 13px 15px;
+    width: 196px;
+    box-sizing: border-box;
+}
+.signup .label-2 {
+    overflow-wrap: break-word;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    font-size: var(--body-text-font-size);
+    line-height: var(--body-text-line-height);
+    color: #828282;
+}
+.signup .last-name {
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    background: #FFFFFF;
+    padding: 13px 15px;
+    width: 198px;
+    box-sizing: border-box;
+}
+.signup .container-2 {
+    margin: 0 0 18px 2px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.signup .label-3 {
+    overflow-wrap: break-word;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    font-size: var(--body-text-font-size);
+    line-height: var(--body-text-line-height);
+    color: #828282;
+}
+.signup .email {
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    background: #FFFFFF;
+    margin: 0 9px 23.8px 0;
+    padding: 13px 15px;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.signup .label {
+    overflow-wrap: break-word;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    font-size: var(--body-text-font-size);
+    line-height: var(--body-text-line-height);
+    color: #828282;
+}
+.signup .password {
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    background: #FFFFFF;
+    margin: 0 7px 21.1px 2px;
+    padding: 13px 15px;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.signup .sign-up-1 {
+    overflow-wrap: break-word;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    font-size: var(--small-text-font-size);
+    line-height: var(--body-text-line-height);
+    color: #FFFFFF;
+}
+.signup .signup-button {
+    border-radius: 8px;
+    background: #000000;
+    margin: 0 7px 21.1px 2px;
+    display: flex;
+    padding: 9.1px 0.7px 9.1px 0;
+    width: 400px;
+    box-sizing: border-box;
+}
+.signup .by-clicking-continue-you-agree-to-our-terms-of-service-and-privacy-policy {
+    margin: 0 29.6px 0 24.6px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #828282;
+}
+.by-clicking-continue-you-agree-to-our-terms-of-service-and-privacy-policy-sub1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.333;
+    color: #000000;
+}
+.by-clicking-continue-you-agree-to-our-terms-of-service-and-privacy-policy {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.333;
+    color: #000000;
+}
+.signup .signup-form {
+    margin-bottom: 45.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.signup .login-header {
+    position: relative;
+    margin-right: 28px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.3px;
+    line-height: 1.5;
+    color: #828282;
+}
+.signup .container-1 {
+    margin: 318px 0 178px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 409px;
+    box-sizing: border-box;
+}
+.signup .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.signup .welcome-to {
+    margin: 0 14px 4px 0;
+    overflow-wrap: break-word;
+    font-family: 'Galindo';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.5;
+    color: #D29B54;
+}
+.welcome-to-sub81 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.333;
+    color: #000000;
+}
+.welcome-to {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.333;
+}
+.signup .piggy-pilot {
+    margin: 0 4px 15px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Galindo';
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1.5;
+    color: #D29B54;
+}
+.signup .ready-to-take-off-create-an-account-to-start-saving {
+    margin: 0 24.7px 632px 24.7px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+}
+.signup .already-have-an-account-log-in-to-continue-your-journey {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+}
+.signup .welcome-info {
+    position: absolute;
+    top: 51px;
+    right: 48.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.signup {
+    background: #FFFFFF;
+    display: flex;
+    padding-right: 118px;
+    width: 1440px;
+    box-sizing: border-box;
+}
