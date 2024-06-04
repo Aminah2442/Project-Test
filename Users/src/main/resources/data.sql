@@ -1,0 +1,3 @@
+insert into users(first_name, last_name, email, phone, password, total_amount) values ('John', 'Doe', 'john@gmail.com', 123456789, 'applesauce', 1000);
+insert into users(first_name, last_name, email, phone, password, total_amount) values ('Alice', 'Smith', 'alice@gmail.com', 987654321, 'candyapple', 750);
+insert into users(first_name, last_name, email, phone, password, total_amount) values ('Bob', 'Johnson', 'bob@gmail.com', 555123456, 'applepie', 600);

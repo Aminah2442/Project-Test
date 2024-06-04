@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users Management</title>
+</head>
+<body>
+
+<h2>Users Management</h2>
+<ul>
+    <li><a href="/users/list" th:href="@{/users/list}"> List of User</a></li>
+    <li><a href="/users/signup" th:href="@{/users/signup}"> Add New User</a></li>
+    <li><a href="/users/update" th:href="@{/users/update}"> Update User</a></li>
+    <li><a href="/users/delete" th:href="@{/users/delete}"> Delete User</a></li>
+
+    <!--  Replace link below to link to your main.html/budget.html/transaction.html  -->
+    <li><a href="/users/profile" th:href="@{/users/profile}"> Profile</a></li>
+</ul>
+
+</body>
+</html>
